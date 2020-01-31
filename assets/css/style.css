@@ -125,12 +125,62 @@ header {
   main styling starts here
 =================================*/
 
+main {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
 
+form {
+  margin: 30px;
+  border: 1px solid;
+}
 
+.form-group {
+  margin: 15px;
+}
+.form-group:nth-child(4) {
+  display: -webkit-box;
+  display: flex;
+}
 
+.form-group label {
+  margin: 0 5%;
+  text-transform: capitalize;
+}
 
+input[type="checkbox"] {
+-webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        border: 1px solid;
+}
 
+.form-group input[type="text"] {
+  margin: 10px;
+}
 
+textarea {
+  resize: none;
+}
+
+.form-control {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.form-control input {
+  margin: 10px;
+  padding: 5px 20px;
+  border: 1px solid;
+  background: transparent;
+  font-size: 16px;
+
+}
 
 /*=================================
   main styling ends here
