@@ -108,10 +108,14 @@ li {
   Header styling starts here
 =================================*/
 
-
-
-
-
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  color: burlywood;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
 
 /*=================================
   Header styling ends here
