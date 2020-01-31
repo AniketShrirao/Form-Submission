@@ -40,9 +40,9 @@
         </div>
         <div class="form-group">
           <label for="Gender">gender</label>
-          <input type="radio" name="gender" value="Male">
+          <input type="radio" name="gender" id="Male" value="Male">
           <label for="male">male</label>
-          <input type="radio" name="gender" value="Female">
+          <input type="radio" name="gender" id="Female" value="Female">
           <label for="female">female</label> 
         </div>
         <div class="form-group">
@@ -54,8 +54,8 @@
           <label for="Terms and Conditions">terms and conditions</label>
         </div>
         <div class="form-control">
-          <input type="submit" value="Submit">
-          <input type="reset" value="Cancel">
+          <input type="submit" id ="submit" value="Submit">
+          <input type="reset"  id = "cancel" value="Cancel">
         </div>
       </form>
     </main>
@@ -64,21 +64,14 @@
     <!--footer section start-->
     <footer>      
       <h6>Form Display</h6>
-      <table>
-        <thead>
-          <tr>
-            <td>name</td>
-            <td>lastname</td>
-            <td>gender</td>
-            <td>address</td>
-            <td>edit</td>
-            <td>delete</td>
-          </tr>
-        </thead>
-        <tbody>
-          
-        </tbody>
-      </table>
+      <ul class="dataHead">
+        <li>name</li>
+        <li>lastname</li>
+        <li>gender</li>
+        <li>address</li>
+        <li>edit</li>
+        <li>delete</li>
+      </ul>
     </footer>
     <!--footer section end-->
 
