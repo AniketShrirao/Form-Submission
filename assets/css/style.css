@@ -195,7 +195,6 @@ footer {
   border-top: 1px solid;
   color: burlywood;
   font-size: 24px;
-  font-weight: 800;
   text-align: center;
   display: -webkit-box;
   display: flex;
@@ -206,26 +205,30 @@ footer {
           justify-content: center;
 }
 
-
-.dataHead {
+ul {
   width: 50%;
-  margin: 10px auto;
+  margin: 0px auto;
   padding: 0;
   color: #000;
   font-size: 14px;
-  font-weight: 800;
   text-transform: capitalize;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: space-evenly;
           justify-content: space-evenly;
 }
-.dataHead li {
+
+li {
   padding: 10px 0;
   border: 1px solid #000;
   border-collapse: collapse;
   width: 100%;
 }
+
+#dataHead ,
+footer h6 { font-weight: 800;}
+
+#dataHead {margin-top: 20px;}
 
  /*=================================
   footer styling ends here
