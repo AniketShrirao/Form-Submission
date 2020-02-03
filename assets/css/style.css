@@ -229,6 +229,7 @@ li {
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
+  overflow: auto;
 }
 
 a {
@@ -243,6 +244,18 @@ a {
   -webkit-box-pack: center;
           justify-content: center;
   text-decoration: underline;
+}
+
+
+#submit:hover, 
+#cancel:hover {
+  background: #000;
+  color: #fff;
+}
+
+a:hover {
+  background: #000;
+  color: #ccc;
 }
 
 #dataHead ,
