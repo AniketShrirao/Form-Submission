@@ -227,17 +227,8 @@ li {
 
 #dataHead ,
 footer h6 { font-weight: 800;}
-
 #dataHead {margin-top: 20px;}
 
  /*=================================
   footer styling ends here
 =================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
